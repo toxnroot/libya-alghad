@@ -101,10 +101,10 @@ export default function Contact() {
                   📞
                 </span>
                 <a
-                  href="tel:+2180927492147"
+                  href="tel:+218927492147"
                   className="text-gray-300 hover:text-[#d4af37] transition-colors text-lg"
                 >
-                  +218 0927492147
+                  00218927492147
                 </a>
               </motion.div>
               <motion.div
