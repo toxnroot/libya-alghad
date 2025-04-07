@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #ffffff;
+}
+
+body{
+  font-family: 'Cairo';
+  background-color: var(--background);
+
+}
+.fl{
+
+  filter:brightness(0.3);
+  object-position: bottom;
+}
+.text-slider{
+  position:absolute;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  animation: fade-in 1s ease-in-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 2s;
+
+}
+
+.swiper-button-prev {
+  color: #ffbb00 !important;
+}
+
+
+.swiper-button-next {
+  color: #ffbb00 !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffbb00a4 !important;
+}
+
+
+.swiper-pagination-bullet-active {
+  background-color: #ffbb00 !important
+}
+
+
+.t1,.t2{
+  text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0);
+}
+@media only screen and (max-width: 599px) {
+  .text-slider{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .sw-parent{
+    width: 100%;
+    height: fit-content;
+  }
+  .t1{
+    font-size: 2rem;
+  }
+  .t2{
+    font-size: 1rem;
+  }
+}
+
+.view-ditals{
+  background: #d4af37;
+  &:hover{
+    background: #d4af37c0;
+  }
+}
+.view-more{
+
+  &:hover{
+    background: #d4af37;
+  }
+}
+
+/* الأجهزة اللوحية: عرض بين 600 بكسل و 1024 بكسل */
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+  .text-slider{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .sw-parent{
+    width: 100%;
+    height: 500px;
+  }
+  .t1{
+    font-size: 3rem;
+  }
+  .t2{
+    font-size: 2rem;
+  }
+
+}
+
+/* أجهزة الكمبيوتر المكتبية: عرض 1024 بكسل فأكثر */
+@media only screen and (min-width: 1024px) {
+  .text-slider{
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .sw-parent{
+    width: 100%;
+    height: 500px;
+  }
+  .t1{
+    font-size: 4.5rem;
+  }
+  .t2{
+    font-size: 3rem;
+  }
+}
