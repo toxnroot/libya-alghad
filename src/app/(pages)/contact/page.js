@@ -45,7 +45,7 @@ export default function Contact() {
               <div className="absolute inset-0 z-0">
       
                 <Image
-                  src="https://res.cloudinary.com/do88eynar/image/upload/v1743978094/3772_ju5qfz.webp" // استبدل هذا بمسار الصورة الفعلي
+                  src="https://res.cloudinary.com/do88eynar/image/upload/v1744003848/contact_ugcupe.webp" // استبدل هذا بمسار الصورة الفعلي
                   alt="خلفية تواصل معنا"
                   fill
                   className="object-cover opacity-30"

@@ -13,7 +13,7 @@ export default function About() {
               <div className="absolute inset-0 z-0">
       
                 <Image
-                  src="https://res.cloudinary.com/do88eynar/image/upload/v1743978098/30163_vnkkdi.webp" // استبدل هذا بمسار الصورة الفعلي
+                  src="https://res.cloudinary.com/do88eynar/image/upload/v1744003847/about_xrumil.webp" // استبدل هذا بمسار الصورة الفعلي
                   alt="خلفية من نحن"
                   fill
                   className="object-cover opacity-30"

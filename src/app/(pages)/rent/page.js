@@ -30,7 +30,7 @@ export default function Rent() {
         <div className="absolute inset-0 z-0">
 
           <Image
-            src="https://res.cloudinary.com/do88eynar/image/upload/v1743978096/2151615117_hozoxn.webp" // استبدل هذا بمسار الصورة الفعلي
+            src="https://res.cloudinary.com/do88eynar/image/upload/v1744003849/services_jyuzw1.webp" // استبدل هذا بمسار الصورة الفعلي
             alt="خلفية خدماتنا"
             fill
             className="object-cover opacity-30"

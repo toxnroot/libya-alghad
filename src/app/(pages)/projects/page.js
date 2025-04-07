@@ -19,7 +19,7 @@ export default function Projects() {
         <section className="relative bg-black text-white py-32 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <Image
-              src="https://res.cloudinary.com/do88eynar/image/upload/v1743980458/146_mgjvnj.webp"
+              src="https://res.cloudinary.com/do88eynar/image/upload/v1744003847/projects_qibnrh.webp"
               alt="خلفية مشاريعنا"
               fill
               className="object-cover opacity-30"

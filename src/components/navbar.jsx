@@ -22,7 +22,7 @@ export default function Navbar() {
   return (
     <nav className="bg-[#000] text-gold-500 px-6 py-4 flex items-center justify-between flex-wrap fixed top-0 w-full z-50" dir="rtl">
       <div className="text-[#d4af37] text-xl font-bold flex justify-center items-center">
-        <img src="/logo.ico" className="w-[60px]" alt="logo" />
+        <img src="/logo.png" className="w-[60px]" alt="logo" />
         Libya Al-Ghad
       </div>
 

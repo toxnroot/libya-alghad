@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 // بيانات الصور والنصوص
-const images = ['https://res.cloudinary.com/do88eynar/image/upload/v1743977780/scene-construction-site-with-equipment_sgno9q.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1743977760/man-8180076_ku15nk.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1743977770/construction-4754307_wrrdnx.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1743977791/construction-4896056_dmbrfo.webp'];
+const images = ['https://res.cloudinary.com/do88eynar/image/upload/v1744003852/1_noxa7p.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1744003850/2_wx6txw.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1744003850/3_ghe86f.webp', 'https://res.cloudinary.com/do88eynar/image/upload/v1744004147/970_1_wllbum.webp'];
 const text = [
   ['ليبيا الغد', 'الرؤية المستقبلية'],
   ['تشييدات جديدة', 'استثمر في المستقبل'],
