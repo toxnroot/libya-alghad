@@ -4,7 +4,11 @@ import { db } from '@/app/api/firebase';
 import { collection, onSnapshot, doc, deleteDoc, updateDoc } from 'firebase/firestore';
 import axios from 'axios';
 
+<<<<<<< HEAD
 export default function ProjectList({userRole}) {
+=======
+export default function ProjectList() {
+>>>>>>> 9a3c4b20b9ad04518eddd022f8c93edbf677f4f3
   const [projects, setProjects] = useState([]);
   const [editingProject, setEditingProject] = useState(null);
   const [editedTitle, setEditedTitle] = useState('');
@@ -214,8 +218,12 @@ export default function ProjectList({userRole}) {
                 <p className="text-sm text-gray-500 mb-4">
                   الحالة: {project.status === 'completed' ? 'منجز' : 'قيد الإنجاز'}
                 </p>
+<<<<<<< HEAD
                 {userRole === 'moderator' && (
                   <div className="flex justify-end space-x-3">
+=======
+                <div className="flex justify-end space-x-3">
+>>>>>>> 9a3c4b20b9ad04518eddd022f8c93edbf677f4f3
                   <button
                     onClick={() => handleEditClick(project)}
                     className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-200"
@@ -229,8 +237,11 @@ export default function ProjectList({userRole}) {
                     حذف
                   </button>
                 </div>
+<<<<<<< HEAD
                 )}
                 
+=======
+>>>>>>> 9a3c4b20b9ad04518eddd022f8c93edbf677f4f3
               </div>
             )}
           </div>

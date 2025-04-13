@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client"; 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation'; // استخدام next/navigation
@@ -42,6 +43,20 @@ export default function Navbar() {
     }
   };
 
+=======
+'use client';
+import { useState } from 'react';
+import { usePathname } from 'next/navigation'; // استيراد usePathname
+import Link from 'next/link';
+import { Menu, X } from 'lucide-react';
+
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname(); // الحصول على المسار الحالي
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+>>>>>>> 9a3c4b20b9ad04518eddd022f8c93edbf677f4f3
   // قائمة الروابط لتسهيل الإدارة
   const navLinks = [
     { href: '/', label: 'الرئيسية' },
@@ -80,6 +95,7 @@ export default function Navbar() {
             </li>
           );
         })}
+<<<<<<< HEAD
 
         {/* إضافة الأزرار فقط إذا كان المستخدم مسجلاً */}
         {user && (
@@ -106,3 +122,9 @@ export default function Navbar() {
     </nav>
   );
 }
+=======
+      </ul>
+    </nav>
+  );
+}
+>>>>>>> 9a3c4b20b9ad04518eddd022f8c93edbf677f4f3
